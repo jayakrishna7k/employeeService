@@ -1,0 +1,18 @@
+//Data Types:
+Primitive Data Types:
+byte,short,int,long,float,double,boolean,char
+Byte,Short,Integer,Long,Float,Double,Boolean,Character
+
+byte i=8;
+byte j=i+1;
+
+
+Object Data Types :
+String,Array,user defined objects(employee,car,book etc)
+String name=new String("Jaya");
+
+
+//Variables;
+Static Variables/Class Variables
+Global Variables/Instance Variables
+Local Variables
