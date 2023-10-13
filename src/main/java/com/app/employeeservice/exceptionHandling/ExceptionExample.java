@@ -23,6 +23,7 @@ public class ExceptionExample {
 
         try {
             System.out.println(1 / 0);
+            System.out.println("close db connection");
         }
         catch(Exception e){
             // we can supress the exception
@@ -32,6 +33,8 @@ public class ExceptionExample {
         }
         finally{
             System.out.println("finally block excecuted");
+            System.out.println("close db connection");
+
         }
         System.out.println("connection closed");
         System.out.println(4);
